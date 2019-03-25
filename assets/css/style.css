@@ -241,6 +241,11 @@ input[type=submit] {
 @media only screen and(max-width: 640px) {
   nav {
     float: left;
-    
+  }
+}
+
+@media only screen and(max-width: 768px) {
+  #main-container {
+    width: 100%
   }
 }
