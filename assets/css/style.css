@@ -218,6 +218,29 @@ input[type=submit] {
 
 /*media queries*/
 
-@media screen and( max-width: 980px) {
-  
+@media only screen and( max-width: 980px) {
+  body { 
+    font-size: 18px;
+   }
+  }
+
+@media only screen and(max-width: 768px) {
+    body {
+      font-size: 11px;
+      background-color: rgb(134, 218, 218)
+    }
+  }
+
+@media only screen and(max-width: 640px) {
+  body {
+    font-size: 8px;
+    background-color: rgb(16, 231, 231)
+  }
+}
+
+@media only screen and(max-width: 640px) {
+  nav {
+    float: left;
+    
+  }
 }
